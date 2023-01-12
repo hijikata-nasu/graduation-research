@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:5:5-45
+uses-sdk
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:7:5-63
+INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:7:5-63
+INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:7:5-63
+INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:7:5-63
+INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:7:5-63
+	tools:overrideLibrary
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:7:15-60
+	android:targetSdkVersion
+		INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:7:5-63
+		INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:7:5-63
+		INJECTED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml
+supports-screens
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:9:5-14:40
+	android:largeScreens
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:11:9-36
+	android:smallScreens
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:12:9-37
+	android:xlargeScreens
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:14:9-37
+	android:anyDensity
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:10:9-34
+application
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:16:5-57:19
+	android:extractNativeLibs
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:17:9-41
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:18:9-34:20
+	android:screenOrientation
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:25:13-49
+	android:launchMode
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:22:13-44
+	android:hardwareAccelerated
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:21:13-48
+	android:exported
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:24:13-36
+	android:resizeableActivity
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:23:13-47
+	android:configChanges
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:20:13-194
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:19:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:29:27-74
+meta-data#android.notch_support
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:31:13-33:40
+	android:value
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:33:17-37
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:32:17-53
+meta-data#nreal_sdk
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:36:9-38:36
+	android:value
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:38:13-33
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:37:13-37
+meta-data#com.nreal.supportDevices
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:39:9-41:51
+	android:value
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:41:13-48
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:40:13-52
+meta-data#unity.splash-mode
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:42:9-44:33
+	android:value
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:44:13-30
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:43:13-45
+meta-data#unity.splash-enable
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:45:9-47:36
+	android:value
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:47:13-33
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:46:13-47
+meta-data#unity.launch-fullscreen
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:48:9-50:36
+	android:value
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:50:13-33
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:49:13-51
+meta-data#unity.allow-resizable-window
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:51:9-53:37
+	android:value
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:53:13-34
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:52:13-56
+meta-data#notch.config
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:54:9-56:50
+	android:value
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:56:13-47
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:55:13-40
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:59:5-68
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:59:22-65
+uses-feature#0x00030000
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:61:5-54
+	android:glEsVersion
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:61:19-51
+uses-feature#android.hardware.type.pc
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:62:5-64:36
+	android:required
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:64:9-33
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:63:9-48
+uses-permission#android.permission.INTERNET
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:66:5-67
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:66:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:67:5-66
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:67:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:68:5-79
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:68:22-76
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:70:5-72:36
+	android:required
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:72:9-33
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:71:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:73:5-75:36
+	android:required
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:75:9-33
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:74:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:76:5-78:36
+	android:required
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:78:9-33
+	android:name
+		ADDED from D:\Users\kaito\Documents\AndroidStudio\TestUnityApplication\unityLibrary\src\main\AndroidManifest.xml:77:9-72

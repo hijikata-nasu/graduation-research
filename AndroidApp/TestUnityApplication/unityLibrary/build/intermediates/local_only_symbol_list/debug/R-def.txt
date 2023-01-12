@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+id messageText
+id sendButton
+id unitySurfaceView
+layout activity_unity_player
+string FreeformWindowOrientation_landscape
+string FreeformWindowOrientation_portrait
+string FreeformWindowSize_maximize
+string FreeformWindowSize_phone
+string FreeformWindowSize_tablet
+style BaseUnityTheme
+style UnityThemeSelector
+style UnityThemeSelector.Translucent
