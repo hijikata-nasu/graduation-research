@@ -9,26 +9,25 @@ namespace AROA.Behaviour
         [SerializeField] private Transform targetCircle;
         [SerializeField] private Transform zeroCircle;
         [SerializeField] private float zeroScale = 100;
-        private float _distance = 100;
 
-        public float Distance
-        {
-            get => _distance;
-            set
-            {
-                if (Distance < 0)
-                {
-                    _distance = 0;
-                    return;
-                }
-                _distance = value;
-            }
-        }
-
-        void Update()
+        void Start()
         {
             zeroCircle.localScale = new Vector3(zeroScale, zeroScale, zeroCircle.localScale.z);
-            targetCircle.localScale = new Vector3(zeroScale + _distance, zeroScale + _distance, targetCircle.localScale.z);
+            targetCircle.localScale = new Vector3(zeroScale, zeroScale, targetCircle.localScale.z);
+        }
+
+        public void SetDistance(int distance)
+        {
+            if (distance < 0)
+            {
+                targetCircle.localScale =
+                    new Vector3(zeroScale, zeroScale, targetCircle.localScale.z);
+            }
+            else
+            {
+                targetCircle.localScale =
+                    new Vector3(zeroScale + distance, zeroScale + distance, targetCircle.localScale.z);
+            }
         }
     }
 }
