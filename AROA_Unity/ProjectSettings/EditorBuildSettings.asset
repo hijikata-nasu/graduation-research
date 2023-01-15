@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/NRSDK/Demos/HelloMR-3dof.unity
-    guid: 1930205874b70904a994853afcaa90af
+    path: Assets/Scenes/RunningScene.unity
+    guid: 38c46cc8d5b522448993d02867dd2cf6
   m_configObjects: {}
