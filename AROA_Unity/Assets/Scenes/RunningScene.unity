@@ -726,6 +726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 944149303}
+  - component: {fileID: 944149304}
   m_Layer: 0
   m_Name: DistanceUI
   m_TagString: Untagged
@@ -750,6 +751,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &944149304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944149302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67255a69b4ec204d88f258a32d97bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCircle: {fileID: 1626544502}
+  zeroCircle: {fileID: 545689795}
+  zeroScale: 100
 --- !u!1 &964984498
 GameObject:
   m_ObjectHideFlags: 0
