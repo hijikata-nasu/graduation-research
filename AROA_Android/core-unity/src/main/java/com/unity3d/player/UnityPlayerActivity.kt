@@ -4,23 +4,18 @@ import android.app.Activity
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
-import android.util.Log
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.Window
-import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.lifecycleScope
-import com.unity3d.player.IUnityPlayerLifecycleEvents
-import com.unity3d.player.UnityPlayer
-import com.unity3d.player.MultiWindowSupport
 import kotlinx.coroutines.*
 
-class UnityPlayerActivity : Activity(), IUnityPlayerLifecycleEvents {
+open class UnityPlayerActivity : Activity(), IUnityPlayerLifecycleEvents {
     protected var mUnityPlayer // don't change the name of this variable; referenced from native code
             : UnityPlayer? = null
-    private val unityPlayer: UnityPlayer get() = checkNotNull(mUnityPlayer)
 
-    private val scope = CoroutineScope(Job() + Dispatchers.Main)
+    val unityPlayer: UnityPlayer get() = checkNotNull(mUnityPlayer)
+
+    val coroutineScope = CoroutineScope(Job() + Dispatchers.Main)
 
     // Override this in your custom UnityPlayerActivity to tweak the command line arguments passed to the Unity Android Player
     // The command line arguments are passed as a string, separated by spaces
@@ -44,16 +39,6 @@ class UnityPlayerActivity : Activity(), IUnityPlayerLifecycleEvents {
         setContentView(unityPlayer)
         unityPlayer.requestFocus()
 
-        scope.launch(Dispatchers.IO) {
-            delay(10000)
-
-            Log.d("UnityPlayer", "MessageSend")
-
-            unityPlayer.setRank(3737)
-            unityPlayer.setTime(128)
-            unityPlayer.setDistance(70)
-        }
-
     }
 
     // When Unity player unloaded move task to background
@@ -75,7 +60,7 @@ class UnityPlayerActivity : Activity(), IUnityPlayerLifecycleEvents {
     // Quit Unity
     override fun onDestroy() {
         unityPlayer.destroy()
-        scope.cancel()
+        coroutineScope.cancel()
         super.onDestroy()
     }
 

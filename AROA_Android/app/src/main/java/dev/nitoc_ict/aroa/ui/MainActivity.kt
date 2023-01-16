@@ -4,12 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.unity3d.player.UnityPlayerActivity
+import dev.nitoc_ict.aroa.core_unity.RunningActivity
 import dev.nitoc_ict.aroa.ui.theme.AROATheme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +18,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     floatingActionButton = {
                         ExtendedFloatingActionButton(
-                            onClick = { startUnityPlayerActivity() },
+                            onClick = { startRunningActivity() },
                             text = { Text(text = "Start") }
                         )
                     }
@@ -30,8 +28,8 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private fun startUnityPlayerActivity() {
-        val intent = Intent(this, UnityPlayerActivity::class.java)
+    private fun startRunningActivity() {
+        val intent = Intent(this, RunningActivity::class.java)
         startActivity(intent)
     }
 }

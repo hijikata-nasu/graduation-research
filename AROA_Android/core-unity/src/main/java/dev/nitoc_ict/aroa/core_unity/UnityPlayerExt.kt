@@ -1,5 +1,6 @@
-package com.unity3d.player
+package dev.nitoc_ict.aroa.core_unity
 
+import com.unity3d.player.UnityPlayer
 import com.unity3d.player.UnityPlayer.UnitySendMessage
 
 fun UnityPlayer.setTime(second: Int) {
