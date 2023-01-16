@@ -8,13 +8,6 @@ namespace AROA.Behaviour
         [SerializeField] private DistanceUI distanceUI;
         [SerializeField] private InfoUI infoUI;
 
-        private void Update()
-        {
-            SetDistance("150");
-            SetRank("15");
-            SetTime("3737");
-        }
-
         public void SetDistance(string message)
         {
             int distance = StringToInt(message);
