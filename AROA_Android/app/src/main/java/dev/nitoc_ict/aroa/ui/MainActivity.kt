@@ -1,15 +1,15 @@
 package dev.nitoc_ict.aroa.ui
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.unity3d.player.UnityPlayerActivity
 import dev.nitoc_ict.aroa.ui.theme.AROATheme
 
 class MainActivity : ComponentActivity() {
@@ -17,27 +17,29 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             AROATheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
+                Scaffold(
+                    floatingActionButton = {
+                        ExtendedFloatingActionButton(
+                            onClick = { startUnityPlayerActivity() },
+                            text = { Text(text = "Start") }
+                        )
+                    }
                 ) {
-                    Greeting("Android")
                 }
             }
         }
     }
+
+    private fun startUnityPlayerActivity() {
+        val intent = Intent(this, UnityPlayerActivity::class.java)
+        startActivity(intent)
+    }
 }
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     AROATheme {
-        Greeting("Android")
     }
 }
