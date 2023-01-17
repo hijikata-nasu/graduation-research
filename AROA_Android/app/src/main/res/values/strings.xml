@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AROA</string>
     <string name="game_view_content_description">Game view</string>
+    <string name="title_activity_client">ClientActivity</string>
 </resources>

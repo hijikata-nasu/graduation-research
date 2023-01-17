@@ -16,3 +16,4 @@ rootProject.name = "AROA"
 include ':app'
 include ':core-unity'
 include ':core-bluetooth'
+include ':crient-app'

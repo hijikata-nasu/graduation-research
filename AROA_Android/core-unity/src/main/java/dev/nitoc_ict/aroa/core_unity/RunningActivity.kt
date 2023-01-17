@@ -7,10 +7,9 @@ import android.content.ServiceConnection
 import android.os.IBinder
 import android.util.Log
 import com.unity3d.player.UnityPlayerActivity
-import dev.nitoc_ict.aroa.core_bluetooth.BluetoothService
+import dev.nitoc_ict.aroa.core_bluetooth.server.BluetoothService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 class RunningActivity: UnityPlayerActivity() {
@@ -62,9 +61,6 @@ class RunningActivity: UnityPlayerActivity() {
         val intent = Intent(this, BluetoothService::class.java)
         bindService(intent, connection, Context.BIND_AUTO_CREATE)
 
-        Log.d(RunningActivity::class.simpleName, "isBound:${isBound}")
-        if (isBound) {
-        }
     }
 
     override fun onStop() {
